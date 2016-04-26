@@ -2,13 +2,14 @@
 
 #Email List Collection Program 
 
-
+import re
 import os
 #import docx
 
 #username = ''
 #useremail = ''
 
+emailRegex = re.compile(r'''([a-zA-Z0-9._%+-] + @ [a-zA-Z0-9.-]+(\.[a-zA-Z]{2,4}))''', re.VERBOSE)
 
 def emailtxtlist(username, useremail):
 
@@ -30,5 +31,13 @@ username = input()
 print('Please enter your email: \n')
 useremail = input()
 
-emailtxtlist(username, useremail)
+
+if not emailRegex.match(useremail):
+   print('Not a valid email address. Please restart program and try again')
+else:
+   emailtxtlist(username, useremail)
+
+
 #emaildoclist(username, useremail)
+
+
