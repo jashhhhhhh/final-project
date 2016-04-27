@@ -1,0 +1,10 @@
+Email List collection Program Outline
+
+
+-set up function to open file and write two variables into the file: name and email
+
+-set up function that will ask user for Name and then Email input
+
+-include regex and if/else to check for valid email format
+
+-include optional word doc writing funtion

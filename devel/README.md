@@ -1,3 +1,11 @@
 # Instructions for Running my Project
 
-Replace this text with the instructions your classmates will need to run your project. If your code needs any libraries using `pip` or any other tool, those instructions should be here as well. A complete stranger should be able to follow these instructions, so don't be afraid to include videos, screenshots, diagrams, text, whatever helps!
+Run Module
+Input your name or nickname
+Input email in a valid email format
+New file, titled 'emails', will be created in the same folder that the program file is saved in
+The name and Email input will be recorded into this file
+
+#There are commented out lines of code that give the option
+#to write the file as a word document instead of a .txt file
+#make sure you have doc pip and uncomment
